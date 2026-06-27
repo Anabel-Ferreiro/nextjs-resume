@@ -26,3 +26,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ## Known Issues / Limitations
 
 - Layout is optimized for desktop viewport only
+
+## Author
+Anabel Ferreiro Perez
