@@ -3,7 +3,7 @@ export default function Home() {
     <main className="max-w-3xl mx-auto px-6 py-12 font-sans text-gray-900 space-y-10">
 
       {/* Header */}
-      <header className="mb-10 pb-6 border-b border-gray-200">
+      <header className="mb-10 pb-6 border-b border-gray-200 text-center">
         <h1 className="text-4xl font-bold text-gray-900 mb-1">Anabel Ferreiro Perez</h1>
         <p className="text-sm text-gray-500 mt-1">
           Business Analytics Student • Data Engineering • AI & Analytics
