@@ -1,10 +1,13 @@
 export default function Home() {
   return (
-    <main className="max-w-3xl mx-auto px-6 py-10 font-sans text-gray-900">
+    <main className="max-w-3xl mx-auto px-6 py-12 font-sans text-gray-900 space-y-10">
 
       {/* Header */}
-      <header className="mb-8">
+      <header className="mb-10 pb-6 border-b border-gray-200">
         <h1 className="text-4xl font-bold text-gray-900 mb-1">Anabel Ferreiro Perez</h1>
+        <p className="text-sm text-gray-500 mt-1">
+          Business Analytics Student • Data Engineering • AI & Analytics
+        </p>
         <p className="text-sm text-gray-600">
           <a href="tel:8508231724" className="hover:underline">(850) 823-1724</a>
           {" | "}
@@ -23,7 +26,7 @@ export default function Home() {
       </section>
 
       {/* Education */}
-      <section className="border-t border-gray-200 pt-6 mt-6">
+      <section className="border border-gray-200 rounded-xl p-6 shadow-sm bg-white">
         <h2 className="text-lg font-semibold uppercase tracking-wide text-gray-700 mb-3">Education</h2>
         <div className="flex justify-between items-start">
           <div>
@@ -36,7 +39,7 @@ export default function Home() {
       </section>
 
       {/* Experience */}
-      <section className="border-t border-gray-200 pt-6 mt-6">
+      <section className="border border-gray-200 rounded-xl p-6 shadow-sm bg-white">
         <h2 className="text-lg font-semibold uppercase tracking-wide text-gray-700 mb-4">Experience</h2>
 
         {/* Job 1 */}
@@ -92,7 +95,7 @@ export default function Home() {
       </section>
 
       {/* Projects */}
-      <section className="border-t border-gray-200 pt-6 mt-6">
+      <section className="border border-gray-200 rounded-xl p-6 shadow-sm bg-white">
         <h2 className="text-lg font-semibold uppercase tracking-wide text-gray-700 mb-3">Projects</h2>
         <div className="flex justify-between items-start">
           <div>
@@ -107,7 +110,7 @@ export default function Home() {
       </section>
 
       {/* Certifications */}
-      <section className="border-t border-gray-200 pt-6 mt-6">
+      <section className="border border-gray-200 rounded-xl p-6 shadow-sm bg-white">
         <h2 className="text-lg font-semibold uppercase tracking-wide text-gray-700 mb-3">Certifications</h2>
         <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
           <li>AWS AI Practitioner — Udacity | Apr 2026</li>
@@ -118,7 +121,7 @@ export default function Home() {
       </section>
 
       {/* Skills */}
-      <section className="border-t border-gray-200 pt-6 mt-6">
+      <section className="border border-gray-200 rounded-xl p-6 shadow-sm bg-white">
         <h2 className="text-lg font-semibold uppercase tracking-wide text-gray-700 mb-3">Skills</h2>
         <div className="text-sm text-gray-700 space-y-1">
           <p><span className="font-semibold">Technical:</span> SQL, Python, Pandas, Tableau, Excel (PivotTables, VLOOKUP), Vertex AI, AWS, Microsoft Office Suite</p>
